@@ -13,7 +13,7 @@ const NavBar = () => {
     <div className= {s.item}>
       <NavLink to='/news'>News</NavLink> 
     </div>
-    <div className= {s.item}>
+    <div activeClassName="active"activeClassName="active" exact={true} className= {s.item} >
       <NavLink to='/music'>Music</NavLink>
     </div>
     <div className= {s.item}>
